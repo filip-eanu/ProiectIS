@@ -1,0 +1,15 @@
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# fisiere generate la rulare
+server/imagini/
+*.csv
+*.log

@@ -1,0 +1,40 @@
+package ro.magazin.common.protocol;
+
+public enum TipCerere {
+    // cont
+    INREGISTRARE,
+    AUTENTIFICARE,
+    DECONECTARE,
+
+    // produse
+    GET_PRODUSE,
+    GET_DETALII_PRODUS,
+    FILTREAZA_PRODUSE,
+    CAUTA_PRODUSE,
+    ADAUGA_PRODUS,
+    MODIFICA_PRODUS,
+    STERGE_PRODUS,
+
+    // cos
+    GET_COS,
+    ADAUGA_IN_COS,
+    MODIFICA_CANTITATE_COS,
+    ELIMINA_DIN_COS,
+
+    // comenzi
+    PLASEAZA_COMANDA,
+    GET_COMENZI_PROPRII,
+    GET_TOATE_COMENZILE,
+    FILTREAZA_COMENZI,
+    SCHIMBA_STARE_COMANDA,
+
+    // utilizatori
+    GET_UTILIZATORI,
+    FILTREAZA_UTILIZATORI,
+    ADAUGA_ANGAJAT,
+    MODIFICA_ANGAJAT,
+    STERGE_ANGAJAT,
+
+    // statistici
+    GET_STATISTICI
+}
